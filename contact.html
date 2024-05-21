@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Culinary Delights</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="tips_and_tricks.html">T&T’s</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html" class="menu-item current-page">Form</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+        <p>Have a question, suggestion, or just want to say hello? We'd love to hear from you! Use the contact form below to get in touch with us, and we'll get back to you as soon as possible.</p>
+        
+        <form action="mailto:ibrahimabusada59@email.com" method="post" enctype="text/plain">
+            <label for="name">Your name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Your message:</label><br>
+            <textarea id="message" name="message" rows="8" cols="40" required></textarea><br><br> <!-- Adjusted the rows and cols attributes -->
+            
+            <input type="radio" id="inquiry" name="purpose" value="inquiry" checked>
+            <label for="inquiry">General Inquiry</label><br>
+            
+            <input type="radio" id="feedback" name="purpose" value="feedback">
+            <label for="feedback">Feedback</label><br><br>
+            
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">I’d like to subscribe to a newsletter</label><br><br>
+            
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+        
+        <p>We look forward to hearing from you!</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Culinary Delights</p>
+    </footer>
+</body>
+</html>

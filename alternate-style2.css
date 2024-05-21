@@ -1,0 +1,12 @@
+body {
+    font-family: 'Times New Roman', serif;
+    color: green;
+}
+
+header {
+    background-color: #336699;
+}
+
+nav ul li a {
+    color: white;
+}

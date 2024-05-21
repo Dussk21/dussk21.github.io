@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online Cooking Course: Culinary Delights</title>
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="alternate-style1.css" title="Alternate Style 1">
+        <link rel="stylesheet" href="alternate-style2.css" title="Alternate Style 2">
+        <script>
+            function setActiveStyleSheet(title) {
+                var links = document.getElementsByTagName('link');
+                for (var i = 0; i < links.length; i++) {
+                    if (links[i].getAttribute('rel').indexOf('style') != -1 && links[i].getAttribute('title')) {
+                        links[i].disabled = true;
+                        if (links[i].getAttribute('title') === title) {
+                            links[i].disabled = false;
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+    
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="menu-item current-page">Homepage</a></li>
+                    <li><a href="recipes.html" class="menu-item">Recipes</a></li>
+                    <li><a href="tips_and_tricks.html" class="menu-item">T&T’s</a></li>
+                    <li><a href="faq.html" class="menu-item">FAQ</a></li>
+                    <li><a href="contact.html" class="menu-item">Form</a></li>
+                </ul>
+            </nav>
+        </header>
+
+<main>
+    <section id="introduction">
+        <h1>Online Cooking Course: Culinary Delights</h1>
+        <p>In today's culinary landscape, the art of cooking goes beyond mere sustenance; it's a form of self-expression, creativity, and cultural appreciation. Our online cooking course, "Culinary Delights," is designed to take you on a journey through the vibrant world of gastronomy, teaching you essential skills, techniques, and recipes to master the art of cooking and create delicious dishes that delight the senses.</p>
+    </section>
+
+    <section id="main-topics">
+        <h2>Main Topics:</h2>
+        <ol>
+            <li>Essential Cooking Techniques</li>
+            <li>Culinary Exploration: International Cuisine</li>
+            <li>Healthy And Sustainable Cooking</li>
+            <li>Pastry and Baking Mastery</li>
+        </ol>
+    </section>
+
+    <section id="essential-cooking-techniques">
+        <h2>Essential Cooking Techniques:</h2>
+        <p>Mastering essential cooking techniques is the foundation of becoming a proficient cook. This module covers knife skills, basic cooking methods such as sautéing, roasting, and braising, as well as fundamental culinary techniques like emulsification, caramelization, and seasoning. By understanding these techniques, you'll gain the confidence to tackle any recipe with ease.</p>
+        <table>
+            <caption>Cooking Technique	Description</caption>
+            <tr>
+                <th>Knife Skills</th>
+                <td>Mastering the use of knives for slicing, dicing, chopping, and mincing various ingredients.</td>
+            </tr>
+            <tr>
+                <th>Sautéing</th>
+                <td>Cooking food quickly in a small amount of oil or fat over high heat, often used for vegetables and meats.</td>
+            </tr>
+            <tr>
+                <th>Roasting</th>
+                <td>Cooking food in an oven at high temperatures, resulting in caramelization and intensified flavors.</td>
+            </tr>
+            <tr>
+                <th>Braising</th>
+                <td>A combination cooking method involving searing food at high heat, then simmering in liquid at low heat.</td>
+            </tr>
+        </table>
+        <p>There is a video explaining knife skills: <a href="https://www.youtube.com/watch?v=YrHpeEwk_-U">Knife Skills Video</a></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YrHpeEwk_-U" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="culinary-exploration">
+        <h2>Culinary Exploration: International Cuisine</h2>
+        <p>Embark on a culinary journey around the globe as we explore the rich and diverse world of international cuisine. From Italian pasta dishes to spicy Thai curries, this module introduces learners to the flavors, ingredients, and cooking techniques of various cultures. Expand your culinary repertoire and learn how to recreate authentic dishes from different regions.</p>
+    </section>
+
+    <section id="healthy-sustainable-cooking">
+        <h2>Healthy and Sustainable Cooking</h2>
+        <p>Promoting health and sustainability in the kitchen is essential for nourishing both ourselves and the planet. In this module, you'll discover how to make nutritious and delicious meals using fresh, seasonal ingredients. Learn about mindful cooking practices, reducing food waste, and incorporating plant-based ingredients into your diet for a healthier lifestyle.</p>
+        <h3>Plan:</h3>
+        <ol>
+            <li>Seasonal Ingredient Utilization</li>
+            <li>Mindful Cooking Techniques</li>
+            <li>Reducing Food Waste</li>
+            <li>Plant-Based Cooking Inspiration</li>
+            <li>Environmental Impact Awareness</li>
+        </ol>
+    </section>
+
+    <section id="pastry-baking-mastery">
+        <h2>Pastry and Baking Mastery</h2>
+        <p>Indulge your sweet tooth and unleash your creativity with our pastry and baking mastery module. From flaky croissants to decadent chocolate cakes, learn the art and science behind baking perfect pastries and desserts. Explore techniques for working with dough, mastering pastry cream, and decorating cakes like a pro.</p>
+        <ul>
+            <li>Dough Preparation Mastery: Learn essential techniques for creating flaky pie crusts, tender scones, and airy puff pastry, mastering ingredient ratios and mixing methods.</li>
+            <li>Pastry Creams and Fillings: Explore recipes for velvety-smooth pastry creams, rich chocolate ganache, and flavorful fruit curds, perfect for filling eclairs, tarts, and more.</li>
+            <li>Cake Decorating Expertise: Elevate your cake decorating skills with professional techniques for frosting, piping, and embellishing cakes, creating stunning designs with buttercream, fondant, and edible decorations.</li>
+            <li>Flavor Pairings and Innovation: Experiment with unique flavor combinations and innovative techniques, balancing sweet, tart, salty, and bitter flavors while incorporating seasonal fruits, spices, and herbs for creative desserts.</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>Cooking is not just about following recipes; it's about passion, creativity, and sharing memorable experiences with loved ones. Whether you're a beginner looking to sharpen your skills or a seasoned cook seeking inspiration, our online cooking course offers something for everyone.</p>
+    <p>We'll be in touch shortly to assist you in enrolling and starting your culinary adventure!</p>
+</footer>
+
+</body>
+</html>
